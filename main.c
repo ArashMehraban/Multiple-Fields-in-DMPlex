@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
   DM           distributedMesh = NULL;
   PetscFE      fe, feP;
   PetscInt     ncompu = 3;
-  PetscInt     ncompp = 1;
+  PetscInt     ncompp = 4;
   PetscInt     dim = 3; 
   Vec          vec;
   PetscInt     vec_sz;
